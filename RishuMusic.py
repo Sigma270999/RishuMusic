@@ -78,13 +78,13 @@ LOGGER = logging.getLogger("SYSTEM")
 if os.path.exists("Config.env"):
     load_dotenv("Config.env")
 
-API_ID = int(getenv("API_ID", 0))
-API_HASH = getenv("API_HASH", None)
+API_ID = int(getenv("14050586", 0))
+API_HASH = getenv("42a60d9c657b106370c79bb0a8ac560c", None)
 BOT_TOKEN = getenv("BOT_TOKEN", None)
-STRING_SESSION = getenv("STRING_SESSION", None)
+STRING_SESSION = getenv("BQDWZRoAc1PhtwD3mMkFN9NDLtj9D90FZsuxiB-YhxdgRwOpAYdyBJCXjT655LNPxRNBZRUnYn3fD77NdqYgdBKA3Ic7qNvzQn7aLB0tVu-3Beb599TIOqvFEhlyO96r1WZFrk7EekYzpM-RYrtu5K6o9SWFF-u8w4xC1j2mIZtZglOx4DCaae2aa1cFLFGle3RK63fcNm8KmNFHnoJIMmX32mU2bH7patjYr3-IA9XpYgHGNVeDhN2mWwN2N0_i2ngdCZTwhLHg0ASAjzUMIKRIcGX1bK0z9MmQj4bOT0Ptu1UyrvfvQVQA1jhJjHmff_q7Lh1rzRkK_oQPZ7cauDz9omnyWQAAAAHMk1gFAQ", None)
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")
-OWNER_ID = int(getenv("OWNER_ID", "5738579437"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001992970818"))
+OWNER_ID = int(getenv("OWNER_ID", "1839567584"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1002380431147"))
 START_IMAGE_URL = getenv("START_IMAGE_URL","https://envs.sh/oKU.jpg")
 
 
@@ -203,8 +203,8 @@ async def main():
         LOGGER.info(f"🚫 Assistant Error: {e}")
         sys.exit()
     try:
-        await app.join_chat("Ur_Rishu_143")
-        await app.join_chat("Vip_Robotz")
+        await app.join_chat("https://t.me/+gV4wCWz0wEtmZTY1")
+        await app.join_chat("aryan_misic_bot_chat")
     except Exception:
         pass
     if LOG_GROUP_ID != 0:
@@ -221,7 +221,7 @@ async def main():
     LOGGER.info("✅ PyTgCalls Started.")
     await asyncio.sleep(1)
     LOGGER.info("✅ Sucessfully Hosted Your Bot !!")
-    LOGGER.info("✅ Now Do Visit: @Ur_Rishu_143 !!")
+    LOGGER.info("✅ Now Do Visit: https://t.me/+gV4wCWz0wEtmZTY1 !!")
     await idle()
 
 
@@ -388,7 +388,7 @@ async def start_message_private(client, message):
 » ✦ ʙєsᴛ ғєᴧᴛυꝛє ʙσᴛ ση ᴛєʟєɢꝛᴧϻ 
 » ✦ ᴧᴅᴅ ϻє ɢꝛσυᴘ ᴛσ sєє ϻʏ ᴘσᴡєʀ
 •──────────────────────•
-❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [ʀɪsʜυ ʙσᴛ ](t.me/ur_rishu_143)❤️‍🔥
+❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [ʀɪsʜυ ʙσᴛ ](https://t.me/+gV4wCWz0wEtmZTY1)❤️‍🔥
 •──────────────────────•**"""
 
         buttons = InlineKeyboardMarkup(
@@ -444,11 +444,11 @@ async def start_message_private(client, message):
 CBUTTON = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/ur_support07")
+            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/aryan_misic_bot_chat")
         ],
         [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/Ur_rishu_143"),
-            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/Vip_robotz/4")
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/+gV4wCWz0wEtmZTY1"),
+            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/+qDKFOaG48MQ3NTRl")
         ],
         [
             InlineKeyboardButton("↺ ʙᴧᴄᴋ ↻", callback_data="back_to_home")
@@ -469,7 +469,7 @@ ABUTTON = InlineKeyboardMarkup(
 HELP_C = """```
 ⌬ ๏ ʟᴇᴛ's ɪɴᴛʀᴏᴅᴜᴄᴇ ᴍᴜsɪᴄ ʙᴏᴛ```
 
-**⌬ [【 ʀɪsʜυ-ϻυsɪᴄ 】](https://t.me/Ur_rishu_143) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
+**⌬ [【 ʀɪsʜυ-ϻυsɪᴄ 】](https://t.me/+gV4wCWz0wEtmZTY1) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
 ```\n⌬ ʙᴇsᴛ ғᴇᴀsɪʙɪʟɪᴛʏ ᴏɴ ᴛᴏᴘ  ?```
 
 **✦ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ
@@ -481,10 +481,10 @@ HELP_C = """```
 
 ᴀʟʟ ᴛʜᴇ ғᴇᴀᴛᴜʀᴇs ᴀʀᴇ ᴡᴏʀᴋɪɴɢ ғɪɴᴇ
 
-⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/Ur_rishu_143)**"""
+⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/+gV4wCWz0wEtmZTY1)**"""
 
 HELP_X = """```
-    【 ʀɪsʜυ-ϻυsɪᴄ 】 ᴍᴇɴᴜ```
+    【 Aryan-ϻυsɪᴄ 】 ᴍᴇɴᴜ```
 
 **ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /
 
@@ -500,7 +500,7 @@ HELP_X = """```
 
 ✦ /end - Cʟᴇᴀʀ , ᴇɴᴅ ᴀʟʟ sᴏɴɢ [ᴀᴜɪᴅᴏ & ᴠɪᴅᴇᴏ]
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ - [ʀɪsʜυ ʙσᴛ](https://t.me/Ur_rishu_143)**"""
+❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ - [Aryan ʙσᴛ](https://t.me/+gV4wCWz0wEtmZTY1)**"""
 
 # Callback query handler
 @bot.on_callback_query(filters.regex("RISHU_RAJPUT"))
@@ -530,7 +530,7 @@ async def delete_cb_query(client, query):
 @bot.on_callback_query(filters.regex("back_to_home"))
 async def back_to_home_menu(client, query):
     mention = query.from_user.mention
-    caption = f"""**┌────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼──────•\n┆◍ ʜᴇʏ {mention},\n└──────────────────────•\n» ✦ ϻσsᴛ ᴘσᴡєꝛғυʟʟ ϻυsɪᴄ ʙσᴛ  \n» ✦ ʙєsᴛ ғєᴧᴛυꝛє ʙσᴛ ση ᴛєʟєɢꝛᴧϻ \n» ✦ ᴧᴅᴅ ϻє ɢꝛσυᴘ ᴛσ sєє ϻʏ ᴘσᴡєꝛ\n•──────────────────────•\n❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [ʀɪsʜυ ʙσᴛ ](t.me/ur_rishu_143)❤️‍🔥\n•──────────────────────•**"""
+    caption = f"""**┌────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼──────•\n┆◍ ʜᴇʏ {mention},\n└──────────────────────•\n» ✦ ϻσsᴛ ᴘσᴡєꝛғυʟʟ ϻυsɪᴄ ʙσᴛ  \n» ✦ ʙєsᴛ ғєᴧᴛυꝛє ʙσᴛ ση ᴛєʟєɢꝛᴧϻ \n» ✦ ᴧᴅᴅ ϻє ɢꝛσυᴘ ᴛσ sєє ϻʏ ᴘσᴡєꝛ\n•──────────────────────•\n❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [ʀɪsʜυ ʙσᴛ ](https://t.me/+gV4wCWz0wEtmZTY1)❤️‍🔥\n•──────────────────────•**"""
 
     buttons = InlineKeyboardMarkup(
         inline_keyboard=[
@@ -554,10 +554,6 @@ async def back_to_home_menu(client, query):
                 InlineKeyboardButton(
                     text="˹ ᴧʙᴏᴜᴛ ˼",
                     callback_data="RISHU",
-                ),
-                InlineKeyboardButton(
-                    text="˹ ʀᴇᴘᴏ ˼",
-                    url="https://github.com/Rishubot/RishuMusic",  # Callback data for Owner button
                 ),
             ]
         ]
