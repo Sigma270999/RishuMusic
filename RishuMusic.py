@@ -85,7 +85,7 @@ STRING_SESSION = getenv("BQDWZRoAc1PhtwD3mMkFN9NDLtj9D90FZsuxiB-YhxdgRwOpAYdyBJC
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")
 OWNER_ID = int(getenv("OWNER_ID", "1839567584"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1002380431147"))
-START_IMAGE_URL = getenv("START_IMAGE_URL","https://envs.sh/oKU.jpg")
+START_IMAGE_URL = getenv("START_IMAGE_URL","https://t.me/MasterMindBots/121")
 
 
 # Memory Database
@@ -388,7 +388,7 @@ async def start_message_private(client, message):
 » ✦ ʙєsᴛ ғєᴧᴛυꝛє ʙσᴛ ση ᴛєʟєɢꝛᴧϻ 
 » ✦ ᴧᴅᴅ ϻє ɢꝛσυᴘ ᴛσ sєє ϻʏ ᴘσᴡєʀ
 •──────────────────────•
-❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [ʀɪsʜυ ʙσᴛ ](https://t.me/+gV4wCWz0wEtmZTY1)❤️‍🔥
+❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [Aryan ʙσᴛ ](https://t.me/+gV4wCWz0wEtmZTY1)❤️‍🔥
 •──────────────────────•**"""
 
         buttons = InlineKeyboardMarkup(
@@ -413,12 +413,7 @@ async def start_message_private(client, message):
                     InlineKeyboardButton(
                         text="˹ ᴧʙᴏᴜᴛ ˼",
                         callback_data="RISHU",
-                    ),
-                    InlineKeyboardButton(
-                        text="˹ ʀᴇᴘᴏ ˼",
-                        url="https://github.com/rishubot",
-                    ),
-                ]
+                    )
             ]
         )
 
@@ -469,7 +464,7 @@ ABUTTON = InlineKeyboardMarkup(
 HELP_C = """```
 ⌬ ๏ ʟᴇᴛ's ɪɴᴛʀᴏᴅᴜᴄᴇ ᴍᴜsɪᴄ ʙᴏᴛ```
 
-**⌬ [【 ʀɪsʜυ-ϻυsɪᴄ 】](https://t.me/+gV4wCWz0wEtmZTY1) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
+**⌬ [【 Aryan-ϻυsɪᴄ 】](https://t.me/+gV4wCWz0wEtmZTY1) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
 ```\n⌬ ʙᴇsᴛ ғᴇᴀsɪʙɪʟɪᴛʏ ᴏɴ ᴛᴏᴘ  ?```
 
 **✦ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ
@@ -530,7 +525,7 @@ async def delete_cb_query(client, query):
 @bot.on_callback_query(filters.regex("back_to_home"))
 async def back_to_home_menu(client, query):
     mention = query.from_user.mention
-    caption = f"""**┌────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼──────•\n┆◍ ʜᴇʏ {mention},\n└──────────────────────•\n» ✦ ϻσsᴛ ᴘσᴡєꝛғυʟʟ ϻυsɪᴄ ʙσᴛ  \n» ✦ ʙєsᴛ ғєᴧᴛυꝛє ʙσᴛ ση ᴛєʟєɢꝛᴧϻ \n» ✦ ᴧᴅᴅ ϻє ɢꝛσυᴘ ᴛσ sєє ϻʏ ᴘσᴡєꝛ\n•──────────────────────•\n❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [ʀɪsʜυ ʙσᴛ ](https://t.me/+gV4wCWz0wEtmZTY1)❤️‍🔥\n•──────────────────────•**"""
+    caption = f"""**┌────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼──────•\n┆◍ ʜᴇʏ {mention},\n└──────────────────────•\n» ✦ ϻσsᴛ ᴘσᴡєꝛғυʟʟ ϻυsɪᴄ ʙσᴛ  \n» ✦ ʙєsᴛ ғєᴧᴛυꝛє ʙσᴛ ση ᴛєʟєɢꝛᴧϻ \n» ✦ ᴧᴅᴅ ϻє ɢꝛσυᴘ ᴛσ sєє ϻʏ ᴘσᴡєꝛ\n•──────────────────────•\n❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [Aryan ʙσᴛ ](https://t.me/+gV4wCWz0wEtmZTY1)❤️‍🔥\n•──────────────────────•**"""
 
     buttons = InlineKeyboardMarkup(
         inline_keyboard=[
@@ -923,7 +918,7 @@ async def change_stream(chat_id):
 
     await call.play(chat_id, stream_media, config=call_config)
     await add_active_media_chat(chat_id, stream_type)
-    caption = f"""```\n🔊<b>【 ʀɪsʜυ-ϻυsɪᴄ 】```\n\n<b>❍ ᴛɪᴛʟє ➥</b> {title}\n<b>❍ ᴛɪϻє ➥</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>❍ ʙʏ ➥</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ʀɪsʜᴜ  ˼```"""
+    caption = f"""```\n🔊<b>【 Aryan-ϻυsɪᴄ 】```\n\n<b>❍ ᴛɪᴛʟє ➥</b> {title}\n<b>❍ ᴛɪϻє ➥</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>❍ ʙʏ ➥</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ aryan  ˼```"""
     buttons = InlineKeyboardMarkup(
         [
             [
@@ -933,8 +928,8 @@ async def change_stream(chat_id):
                 )
             ],
             [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/Ur_rishu_143"),
-            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/Vip_robotz/4")
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/+gV4wCWz0wEtmZTY1"),
+            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/+qDKFOaG48MQ3NTRl")
             ],
             [
                 InlineKeyboardButton(
@@ -1037,8 +1032,8 @@ async def stream_audio_or_video(client, message):
                 )
                     ],
                     [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/Ur_rishu_143"),
-            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/Vip_robotz/4")
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/+gV4wCWz0wEtmZTY1"),
+            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/+qDKFOaG48MQ3NTRl")
                     ],
                     [
                         InlineKeyboardButton(
@@ -1121,8 +1116,8 @@ async def stream_audio_or_video(client, message):
                 )
             ],
             [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/Ur_rishu_143"),
-            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/Vip_robotz/4")
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/+gV4wCWz0wEtmZTY1"),
+            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/+qDKFOaG48MQ3NTRl")
             ],
             [
                 InlineKeyboardButton(
@@ -1446,12 +1441,9 @@ async def git_repo_link(client, message):
         [
             InlineKeyboardButton(
                 text="˹ sᴜᴘᴘᴏꝛᴛ ˼",
-                url="https://t.me/Ur_Rishu_143"
+                url="https://t.me/aryan_misic_bot_chat"
             ),
-            InlineKeyboardButton(
-                text="˹ sᴏᴜꝛᴄᴇ ˼",
-                url="https://github.com/rishubot/RishuMusic"
-            ),
+        
         ],
         [
             InlineKeyboardButton(
@@ -1522,7 +1514,7 @@ async def check_bot_stats(client, message):
     except:
         pass
     photo = START_IMAGE_URL
-    caption = "**【 ʀɪsʜυ-ϻυsɪᴄ 】༗**"
+    caption = "**【 Aryan-ϻυsɪᴄ 】༗**"
     buttons = InlineKeyboardMarkup(
         [
             [
@@ -1561,7 +1553,7 @@ async def check_total_stats(client, query):
         video_chats = len(ACTIVE_VIDEO_CHATS)
         
         return await query.answer(
-            f"""⏱️ 【 ʀɪsʜυ-ϻυsɪᴄ 】
+            f"""⏱️ 【 Aryan-ϻυsɪᴄ 】
 ☛ {uptime}
 
 🔴 Served Chats: {served_chats}
